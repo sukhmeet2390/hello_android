@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">android_hello_world</string>
+    <string name="edit_message">Enter a message re ! </string>
+    <string name="button_send">Send this message</string>
+    <string name="title_activity_display_message">My message</string>
 </resources>
