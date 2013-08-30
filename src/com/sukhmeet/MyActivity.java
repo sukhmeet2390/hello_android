@@ -18,7 +18,6 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
     }
     // to place menu items in action bar
     @Override

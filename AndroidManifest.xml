@@ -13,6 +13,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DisplayMessageActivity"
-                android:parentActivityName="MyActivity"/>
+                android:parentActivityName="MyActivity"
+                android:theme="@android:style/Theme.Holo.Light"/>
     </application>
 </manifest>
