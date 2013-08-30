@@ -25,5 +25,6 @@ public class DisplayMessageActivity extends Activity {
 
         // set the text view as activity layout
         setContentView(textView);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
