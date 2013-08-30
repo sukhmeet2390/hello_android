@@ -4,4 +4,6 @@
     <string name="edit_message">Enter a message re ! </string>
     <string name="button_send">Send this message</string>
     <string name="title_activity_display_message">My message</string>
+    <string name="action_search"> Search</string>
+    <string name="action_setting" >Setting</string>
 </resources>
