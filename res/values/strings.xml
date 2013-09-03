@@ -6,4 +6,6 @@
     <string name="title_activity_display_message">My message</string>
     <string name="action_search"> Search</string>
     <string name="action_setting" >Setting</string>
+    <string name="btn_fragment"> button fragment</string>
+    <string name="fragment_content">Fragment Content</string>
 </resources>
