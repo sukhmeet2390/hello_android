@@ -8,4 +8,7 @@
     <string name="action_setting" >Setting</string>
     <string name="btn_fragment"> button fragment</string>
     <string name="fragment_content">Fragment Content</string>
+    <string name="label_list_view">List View Fragment</string>
+    <string name ="label_grid_view">Grid view Fragment</string>
+
 </resources>

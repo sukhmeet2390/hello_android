@@ -38,7 +38,6 @@ public class MyActivity extends Activity {
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
-
         }
     }
     public void openSearch(){
