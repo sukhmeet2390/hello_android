@@ -1,0 +1,27 @@
+To share data with different apps we use ContentProvider
+In this I have used inbuilt contacts ContentProvider through is ContactsContract URI
+
+- android Manifest
+- ContactsContentProviderActivity
+- layout/content.xml
+
+addPermissions to access contacts
+
+get contacts contentUri
+do a query and display the name
+
+
+
+
+
+ContactsContract defines an extensible database of contact-related information.
+Contact information is stored in a three-tier data model:
+-   A row in the ContactsContract.Data table can store any kind of personal data,
+    such as a phone number or email addresses. The set of data kinds that can be stored in this table is open-ended.
+    There is a predefined set of common kinds, but any application can add its own data kinds.
+-   A row in the ContactsContract.RawContacts table represents a set of data describing a person and
+    associated with a single account (for example, one of the user's Gmail accounts).
+-   A row in the ContactsContract.Contacts table represents an aggregate of one or more RawContacts
+    presumably describing the same person. When data in or associated with the RawContacts table is changed,
+    the affected aggregate contacts are updated as necessary.
+
