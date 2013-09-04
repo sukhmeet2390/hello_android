@@ -1,0 +1,30 @@
+Files
+- MySQLiteHelper
+- AndroidDataSource
+- Comment
+- TestDatabaseActivity
+- database.xml
+
+
+MySqlLiteHelper helps us to create and upgrade the databases, and its parent SQLiteOpenHelper takes care of all
+database management activities.
+
+AndroidDataSource is the data access object.( i see it as exposed API )
+- this uses the MySqlLiteHelper to create the database
+- gives API to open , insertRow, deleteRow , getAll,  close the db
+- ContentValues are key-value pairs for insertion
+
+
+Comment is our row model data structure
+
+
+TestDatabaseActivity is main activity class
+- uses List Activity for displaying data.
+- uses layout database.xml
+-  wasn't able to update the db , but entries were going fine
+
+database.xml is layout file
+
+
+http://developer.android.com/tools/help/adb.html#sqlite
+./adb -s emulator-5554 shell
