@@ -1,0 +1,11 @@
+- define a fragment => pageFramgment
+- define a pageAdapter helper to extend FragmentPageAdapter, this holds all my fragments
+- define the layout of main activity
+-- define the strip and the view pager
+-- get an instance of ViewPager
+ -- get instance of my helper
+ -- pass all fragments to helper for intialization
+ -- set the helper adapter to pageViewer
+
+>>>> I  Use a Title Strip Instead of Tabs
+http://developer.android.com/training/implementing-navigation/lateral.html#PagerTitleStrip

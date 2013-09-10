@@ -10,5 +10,8 @@
     <string name="fragment_content">Fragment Content</string>
     <string name="label_list_view">List View Fragment</string>
     <string name ="label_grid_view">Grid view Fragment</string>
-
+    <string name="title_section1"> SECTION 1</string>
+    <string name="title_section2"> SECTION 2</string>
+    <string name="title_section3"> SECTION 3</string>
+    <string name="section_label">section_label</string>
 </resources>
