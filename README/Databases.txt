@@ -28,3 +28,5 @@ database.xml is layout file
 
 http://developer.android.com/tools/help/adb.html#sqlite
 ./adb -s emulator-5554 shell
+.schema
+.dump
